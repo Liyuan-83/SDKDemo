@@ -1,0 +1,11 @@
+framework module MySDK {
+  umbrella header "MySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module MySDK.Swift {
+  header "MySDK-Swift.h"
+  requires objc
+}

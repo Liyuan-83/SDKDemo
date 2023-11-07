@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MySDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import MySDK
+import Swift
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class MySDKManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func getAllPosts() async -> [MySDK.Post]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func getPostByIds(ids: [Swift.Int]) async -> [MySDK.Post]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func getPostWithCommentByIds(ids: [Swift.Int]) async -> [Swift.Int : [MySDK.Comment]]
+  #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Post : Swift.Codable, Swift.Hashable {
+  final public let userID: Swift.Int, id: Swift.Int
+  final public let title: Swift.String, body: Swift.String
+  public static func == (lhs: MySDK.Post, rhs: MySDK.Post) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Comment : Swift.Codable {
+  final public let postID: Swift.Int, id: Swift.Int
+  final public let name: Swift.String, email: Swift.String, body: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}

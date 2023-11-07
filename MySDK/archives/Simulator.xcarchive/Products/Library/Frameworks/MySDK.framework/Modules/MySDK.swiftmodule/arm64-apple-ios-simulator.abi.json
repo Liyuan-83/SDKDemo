@@ -1,0 +1,1244 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MySDKManager",
+        "printedName": "MySDKManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAllPosts",
+            "printedName": "getAllPosts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MySDK.Post]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Post",
+                    "printedName": "MySDK.Post",
+                    "usr": "s:5MySDK4PostC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK0A10SDKManagerC11getAllPostsSayAA4PostCGyYaFZ",
+            "mangledName": "$s5MySDK0A10SDKManagerC11getAllPostsSayAA4PostCGyYaFZ",
+            "moduleName": "MySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPostByIds",
+            "printedName": "getPostByIds(ids:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MySDK.Post]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Post",
+                    "printedName": "MySDK.Post",
+                    "usr": "s:5MySDK4PostC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK0A10SDKManagerC12getPostByIds3idsSayAA0E0CGSaySiG_tYaFZ",
+            "mangledName": "$s5MySDK0A10SDKManagerC12getPostByIds3idsSayAA0E0CGSaySiG_tYaFZ",
+            "moduleName": "MySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPostWithCommentByIds",
+            "printedName": "getPostWithCommentByIds(ids:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int : [MySDK.Comment]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MySDK.Comment]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Comment",
+                        "printedName": "MySDK.Comment",
+                        "usr": "s:5MySDK7CommentC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK0A10SDKManagerC23getPostWithCommentByIds3idsSDySiSayAA0G0CGGSaySiG_tYaFZ",
+            "mangledName": "$s5MySDK0A10SDKManagerC23getPostWithCommentByIds3idsSDySiSayAA0G0CGGSaySiG_tYaFZ",
+            "moduleName": "MySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5MySDK0A10SDKManagerC",
+        "mangledName": "$s5MySDK0A10SDKManagerC",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Post",
+        "printedName": "Post",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK4PostC6userIDSivp",
+            "mangledName": "$s5MySDK4PostC6userIDSivp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK4PostC6userIDSivg",
+                "mangledName": "$s5MySDK4PostC6userIDSivg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK4PostC2idSivp",
+            "mangledName": "$s5MySDK4PostC2idSivp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK4PostC2idSivg",
+                "mangledName": "$s5MySDK4PostC2idSivg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK4PostC5titleSSvp",
+            "mangledName": "$s5MySDK4PostC5titleSSvp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK4PostC5titleSSvg",
+                "mangledName": "$s5MySDK4PostC5titleSSvg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK4PostC4bodySSvp",
+            "mangledName": "$s5MySDK4PostC4bodySSvp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK4PostC4bodySSvg",
+                "mangledName": "$s5MySDK4PostC4bodySSvg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Post",
+                "printedName": "MySDK.Post",
+                "usr": "s:5MySDK4PostC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Post",
+                "printedName": "MySDK.Post",
+                "usr": "s:5MySDK4PostC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK4PostC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5MySDK4PostC2eeoiySbAC_ACtFZ",
+            "moduleName": "MySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK4PostC4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5MySDK4PostC4hash4intoys6HasherVz_tF",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Post",
+                "printedName": "MySDK.Post",
+                "usr": "s:5MySDK4PostC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5MySDK4PostC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5MySDK4PostC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK4PostC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5MySDK4PostC6encode2toys7Encoder_p_tKF",
+            "moduleName": "MySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK4PostC9hashValueSivp",
+            "mangledName": "$s5MySDK4PostC9hashValueSivp",
+            "moduleName": "MySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK4PostC9hashValueSivg",
+                "mangledName": "$s5MySDK4PostC9hashValueSivg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5MySDK4PostC",
+        "mangledName": "$s5MySDK4PostC",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Comment",
+        "printedName": "Comment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "postID",
+            "printedName": "postID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK7CommentC6postIDSivp",
+            "mangledName": "$s5MySDK7CommentC6postIDSivp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK7CommentC6postIDSivg",
+                "mangledName": "$s5MySDK7CommentC6postIDSivg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK7CommentC2idSivp",
+            "mangledName": "$s5MySDK7CommentC2idSivp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK7CommentC2idSivg",
+                "mangledName": "$s5MySDK7CommentC2idSivg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK7CommentC4nameSSvp",
+            "mangledName": "$s5MySDK7CommentC4nameSSvp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK7CommentC4nameSSvg",
+                "mangledName": "$s5MySDK7CommentC4nameSSvg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK7CommentC5emailSSvp",
+            "mangledName": "$s5MySDK7CommentC5emailSSvp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK7CommentC5emailSSvg",
+                "mangledName": "$s5MySDK7CommentC5emailSSvg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK7CommentC4bodySSvp",
+            "mangledName": "$s5MySDK7CommentC4bodySSvp",
+            "moduleName": "MySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK7CommentC4bodySSvg",
+                "mangledName": "$s5MySDK7CommentC4bodySSvg",
+                "moduleName": "MySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Comment",
+                "printedName": "MySDK.Comment",
+                "usr": "s:5MySDK7CommentC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5MySDK7CommentC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5MySDK7CommentC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK7CommentC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5MySDK7CommentC6encode2toys7Encoder_p_tKF",
+            "moduleName": "MySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5MySDK7CommentC",
+        "mangledName": "$s5MySDK7CommentC",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 39,
+      "value": "\"https:\/\/jsonplaceholder.typicode.com\/\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 7,
+      "value": "\"posts\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "Array",
+      "offset": 490,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "Array",
+      "offset": 614,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 13,
+      "value": "\"posts\/\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "Array",
+      "offset": 1226,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 22,
+      "value": "\"posts\/\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1289,
+      "length": 1,
+      "value": "\"\/comments\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "Array",
+      "offset": 1369,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/HttpManager.swift",
+      "kind": "Array",
+      "offset": 1496,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/APICache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/APICache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/APICache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/APICache.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Network\/APICache.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 10,
+      "value": "\"MySDK.WrappedKey\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/MySDKManager.swift",
+      "kind": "Dictionary",
+      "offset": 340,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/MySDKManager.swift",
+      "kind": "Array",
+      "offset": 733,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/MySDKManager.swift",
+      "kind": "Dictionary",
+      "offset": 957,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "IntegerLiteral",
+      "offset": 352,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "IntegerLiteral",
+      "offset": 458,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Post.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 8,
+      "value": "\"postId\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 8,
+      "value": "\"postId\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 343,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/liyuan\/Desktop\/SDKDemo\/MySDK\/MySDK\/Model\/Comment.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
