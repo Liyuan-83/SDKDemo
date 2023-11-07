@@ -19,7 +19,7 @@ final class MySDKTests: XCTestCase {
     }
 
     func testGetAllPosts() async throws {
-        let posts = await MySDKManager().getAllPosts()
+        let posts = await MySDKManager.getAllPosts()
         XCTAssertNotNil(posts)
         guard let posts = posts else { return }
         XCTAssertNotEqual(posts.count, 0)
@@ -33,7 +33,7 @@ final class MySDKTests: XCTestCase {
     
     func testGetPostByIds() async throws {
         let ids = generateRandomNumbers(10, 1...100)
-        let posts = await MySDKManager().getPostByIds(ids: ids)
+        let posts = await MySDKManager.getPostByIds(ids: ids)
         XCTAssertEqual(posts.count, 10)
         for post in posts{
             XCTAssertNotEqual(post.title, "")
@@ -45,7 +45,7 @@ final class MySDKTests: XCTestCase {
     
     func testGetPostWithCommentByIds() async throws {
         let ids = generateRandomNumbers(10, 1...100)
-        let commentlists = await MySDKManager().getPostWithCommentByIds(ids: ids)
+        let commentlists = await MySDKManager.getPostWithCommentByIds(ids: ids)
         XCTAssertEqual(commentlists.count, 10)
         for id in ids{
             XCTAssertNotNil(commentlists[id])

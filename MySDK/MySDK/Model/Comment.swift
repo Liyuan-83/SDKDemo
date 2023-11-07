@@ -6,7 +6,7 @@
 //
 
 import Foundation
-public class Comment: Codable {
+public class Comment: Codable, Hashable {
     public let postID, id: Int
     public let name, email , body: String
 
@@ -21,5 +21,13 @@ public class Comment: Codable {
         self.name = name ?? ""
         self.email = email ?? ""
         self.body = body ?? ""
+    }
+    
+    public static func == (lhs: Comment, rhs: Comment) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
+    public func hash(into hasher: inout Hasher){
+        
     }
 }
